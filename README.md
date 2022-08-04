@@ -2,7 +2,7 @@
 Rendering the PDF version of your design portfolio using PDFjs
 
 ## To Host Your Own PDF Design Portfolio Using This Code:
-1.  Clone/fork this repository
+1.  Clone/fork this repository, or use it as a template!
 2. In index.html:
 	- Replace the title at line 8
 3. In the directory:
