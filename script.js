@@ -17,7 +17,7 @@ pdfjsLib.getDocument(url).promise.then(function (pdf) {
     viewer.appendChild(canvas);
     renderPage(page, canvas);
   }
-  viewer.classList.remove('flex-style')
+  document.querySelector('body').classList.remove('flex-style')
 });
 
 function renderPage(pageNumber, canvas) {
